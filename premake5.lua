@@ -23,6 +23,8 @@ project "Graphics project"
 
    includedirs {"include"}
 
+   objdir "bin/obj"
+
    -- pchheader "shaders.h"
    -- pchsource "shaders.cpp"
    -- pchheader "stb_image.h"
